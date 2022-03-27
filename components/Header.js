@@ -1,10 +1,8 @@
 import Link from 'next/link'
 
-
-
 const Header = () => {
   return (
-    <div className='flex justify-between px-28 py-10 text-[#100d47] font-sans'>
+    <div className='flex justify-between py-10 text-[#100d47] font-sans'>
       <nav className="flex justify-between gap-11 items-center">
         <Link href="/about" passHref>    
           <h1 className="text-3xl font-semibold">Walter</h1>
